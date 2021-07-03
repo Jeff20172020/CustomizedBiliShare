@@ -19,13 +19,15 @@ package com.bilibili.socialize.share.utils.selector;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.support.v4.app.FragmentActivity;
+
 import android.view.Gravity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.PopupWindow;
+
+import androidx.fragment.app.FragmentActivity;
 
 import com.bilibili.socialize.share.utils.R;
 

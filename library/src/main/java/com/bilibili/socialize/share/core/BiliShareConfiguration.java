@@ -23,7 +23,7 @@ import android.os.Parcelable;
 import android.text.TextUtils;
 
 import com.bilibili.socialize.share.R;
-import com.bilibili.socialize.share.core.handler.sina.SinaShareHandler;
+//import com.bilibili.socialize.share.core.handler.sina.SinaShareHandler;
 import com.bilibili.socialize.share.download.DefaultImageDownloader;
 import com.bilibili.socialize.share.download.IImageDownloader;
 
@@ -105,15 +105,15 @@ public class BiliShareConfiguration implements Parcelable {
         }
 
         public Builder sina(String appKey, String redirectUrl, String scope) {
-            if (TextUtils.isEmpty(redirectUrl)) {
-                redirectUrl = SinaShareHandler.DEFAULT_REDIRECT_URL;
-            }
-            if (TextUtils.isEmpty(scope)) {
-                scope = SinaShareHandler.DEFAULT_SCOPE;
-            }
-            mPlatformConfig.addPlatformDevInfo(SocializeMedia.SINA, SharePlatformConfig.APP_KEY, appKey
-                    , SharePlatformConfig.REDIRECT_URL, redirectUrl
-                    , SharePlatformConfig.SCOPE, scope);
+//            if (TextUtils.isEmpty(redirectUrl)) {
+//                redirectUrl = SinaShareHandler.DEFAULT_REDIRECT_URL;
+//            }
+//            if (TextUtils.isEmpty(scope)) {
+//                scope = SinaShareHandler.DEFAULT_SCOPE;
+//            }
+//            mPlatformConfig.addPlatformDevInfo(SocializeMedia.SINA, SharePlatformConfig.APP_KEY, appKey
+//                    , SharePlatformConfig.REDIRECT_URL, redirectUrl
+//                    , SharePlatformConfig.SCOPE, scope);
             return this;
         }
 

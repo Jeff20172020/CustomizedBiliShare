@@ -5,9 +5,11 @@
 package com.bilibili.socialize.sample.helper;
 
 import android.content.Context;
-import android.support.v4.app.FragmentActivity;
+
 import android.view.View;
 import android.widget.AdapterView;
+
+import androidx.fragment.app.FragmentActivity;
 
 import com.bilibili.socialize.share.core.BiliShare;
 import com.bilibili.socialize.share.core.BiliShareConfiguration;

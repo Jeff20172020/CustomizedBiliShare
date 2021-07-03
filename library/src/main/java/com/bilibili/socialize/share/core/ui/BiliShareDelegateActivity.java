@@ -98,7 +98,7 @@ public class BiliShareDelegateActivity extends Activity {
             switch (mSocializeMedia) {
                 case SINA:
                     Log.d(TAG, "gonna start sina assist act");
-                    SinaAssistActivity.start(this, mShareParam, mShareConfig, REQ_CODE);
+//                    SinaAssistActivity.start(this, mShareParam, mShareConfig, REQ_CODE);
                     break;
 
                 case WEIXIN:

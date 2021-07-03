@@ -25,6 +25,7 @@ import java.util.Locale;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
+
 /**
  * 这个类只是为了演示如何分享，如果想体验分享效果，请下载哔哩哔哩动画app。
  *

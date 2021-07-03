@@ -17,7 +17,6 @@
 package com.bilibili.socialize.share.utils.selector;
 
 import android.content.Context;
-import android.support.v4.app.FragmentActivity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,6 +27,8 @@ import android.widget.ImageView;
 import android.widget.ListAdapter;
 import android.widget.TextView;
 
+
+import androidx.fragment.app.FragmentActivity;
 
 import com.bilibili.socialize.share.core.SocializeMedia;
 import com.bilibili.socialize.share.utils.R;
